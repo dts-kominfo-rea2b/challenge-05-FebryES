@@ -10,8 +10,8 @@ const sorter = (nameList, fnCallBack) => {
   let tempArray = fnCallBack(nameList)
 
   let resultArray = []
-  for (let i=0; i <tempArray.length; i++) {
-    resultArray.push(i+i + '. ' + tempArray[i])
+  for (let i=0; i< tempArray.length; i++) {
+    resultArray.push(i+1 + '. ' + tempArray[i])
   }
   return resultArray
 }
